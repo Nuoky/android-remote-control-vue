@@ -1,0 +1,41 @@
+{
+  "name": "android-remote-control-vue",
+  "version": "0.0.1",
+  "description": "使用 Vue.js 实现了基于android_remote_contro的WEB端控制组件",
+  "main": "./dist/remote-control-vue.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nuoky/android-remote-control-vue.git"
+  },
+  "author": "Nuoky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nuoky/android-remote-control-vue/issues"
+  },
+  "homepage": "https://github.com/Nuoky/android-remote-control-vue#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^5.2.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
