@@ -1,10 +1,10 @@
 {
   "name": "android-remote-control-vue",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "使用 Vue.js 实现了基于android_remote_contro的WEB端控制组件",
-  "main": "./dist/remote-control-vue.js",
+  "main": "./dist/android-remote-control-vue.js",
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --open --hot",

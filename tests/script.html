@@ -7,14 +7,14 @@
 </head>
 <body>
     <div id="app">
-        <remote-control />
+        <android-remote-control host="192.168.28.133:9002" />
     </div>
 </body>
 <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
-<script src="../dist/remote-control-vue.js"></script>
+<script src="../dist/android-remote-control-vue.js"></script>
 <script>
     new Vue({
-        el: '#app'
+        el: '#app',
     })
 </script>
 </html>
