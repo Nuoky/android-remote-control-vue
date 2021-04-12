@@ -29,8 +29,12 @@ export default {
 ```
 
 ### 开发
+```
 npm install
 npm run start
+```
 
 ### 构建
+```
 npm run build
+```
