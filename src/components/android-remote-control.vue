@@ -1,5 +1,5 @@
 <template>
-  <div class="remote-control">
+  <div class="android-remote-control">
     <div :class="{
       'horizontal': isRotate,
       'portrait': !isRotate
@@ -55,7 +55,7 @@
 const BLANK_IMG = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='
 
 export default {
-  name: 'remote-control',
+  name: 'android-remote-control',
   props: {
     host: '',
     showControls: false
@@ -268,7 +268,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.remote-control {
+.android-remote-control {
   display: flex;
 }
 .portrait {

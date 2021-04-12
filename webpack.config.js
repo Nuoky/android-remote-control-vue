@@ -8,11 +8,11 @@ module.exports = {
   mode: env,
   entry: entry,
   output: {
-    path: path.resolve(__dirname, "/dist"),
+    path: path.join(__dirname, "/dist"),
     publicPath: '/dist/',
-    filename: "remote-control-vue.js",
+    filename: "android-remote-control-vue.js",
     libraryTarget: "umd", // 用到的模块定义规范
-    library: "remote-control", // 库的名字
+    library: "android-remote-control-vue", // 库的名字
     libraryExport: "default",
     umdNamedDefine: true
   },

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import app from './app.vue'
-import RemoteControl from '../src/components/remote-control.vue'
+import RemoteControl from '../src/components/android-remote-control.vue'
 
 Vue.component(RemoteControl.name, RemoteControl)
 

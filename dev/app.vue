@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <remote-control host="192.168.28.133:9002" :showControls="true" />
+    <android-remote-control host="192.168.28.133:9002" :showControls="true" />
   </div>
 </template>
 
